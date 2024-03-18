@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'cocogoose';
+  src: url('fonts/Cocogoose.eot');
+  src: local('Cocogoose'),
+      url('fonts/Cocogoose.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Cocogoose.woff2') format('woff2'),
+      url('fonts/Cocogoose.woff') format('woff'),
+      url('fonts/Cocogoose.ttf') format('truetype'),
+      url('fonts/Cocogoose.svg#Cocogoose') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #111111 !important;
+  font-family: bahnschrift, roboto, sans-serif !important;
+  color: #ffffff90 !important;
+}
+
+nav, h1, h4 {
+  font-family: cocogoose !important;
+}
+
+.navbar-nav li a:hover {
+  color: white !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar1 {
+    position: relative !important;
+  }
+}
+
+input, textarea {
+  color: #ffffff90 !important;
+  background: #3a3b3c !important;
+  border:0 !important;
+  border-radius: 10px !important;
+}
+
+.car-card:hover{
+  transform: scale(1.1);
+}
+
+.car-card{
+  transition: transform 0.5s ease;
+}
